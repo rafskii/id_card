@@ -1,0 +1,77 @@
+body {
+    font-family: 'Quicksand', sans-serif;
+}
+
+body {
+    background: url(img/tlo.jpg) no-repeat center fixed;
+    background-size: cover;
+    position: relative;
+}
+
+.wprowadzenie {
+    width: 100%;
+    min-height: 50vh;
+    display: table;
+}
+
+h1 , h4 {
+    display: table-cell;
+    color: whitesmoke;
+    font-weight: bold;
+}
+
+h1 {
+    font-size: 4vw;
+}
+
+h4 {
+    font-size: 2.5vw;
+}
+
+.osoby {
+    background-color: whitesmoke;
+    height: auto;
+}
+
+.osoby img {
+    width: 60%;
+    height: 90%;
+    border-radius: 100%;
+}
+
+.osobie ul {
+    list-style-type: none;
+}
+
+h6 {
+    color: black;
+    font-size: 2vw;
+}
+
+.osobie li {
+    color: black;
+    font-size: 1.6vw;
+}
+
+article {
+    display: table;
+    height: 20vh;
+}
+
+.dolacz {
+    display: table-cell;
+    color: whitesmoke;
+}
+
+.dolacz a {
+    text-decoration: none;
+    color: whitesmoke;
+}
+
+.dolacz h5 , .dolacz a {
+    font-size: 2.5vw;
+}
+
+.dolacz a:hover {
+    color: black;
+}
